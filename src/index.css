@@ -1,0 +1,57 @@
+*{
+padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "DM Sans";
+}
+.card{
+  margin: 0px auto;
+  width: 100%;
+  height: 1024px;
+  flex-shrink: 0;
+  background-image: url(../public/img/background.png);
+  background-size: cover;
+}
+.card__main{
+  justify-content: space-between;
+  display: flex;
+  padding: 96px;
+}
+.card__text h2{
+  margin-bottom: 27px;
+  width: 575px;
+  height: 160px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card__text p{
+  margin-bottom: 50px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card__img{
+  top: 78px;
+  left: 83px;
+  width: 420px;
+  height: 760px;
+  position: absolute;
+  background-image: url(../public/img/women.png);
+}
+.background__img{
+  position: relative;
+  background-image: url(../public/img/women_background.png);
+  width: 592px;
+  height: 810px;
+}
+.card__text{
+  margin-top: 147px;
+}
