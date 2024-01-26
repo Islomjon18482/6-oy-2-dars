@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './assets/button'
 import Header from './assets/header'
+import "./App.css"
 
 export default function App() {
   return (
